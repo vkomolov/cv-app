@@ -1,0 +1,73 @@
+@import "../../utils/global_styles/variables";
+@import "../../utils/global_styles/mixins";
+///@import "../../utils/global_styles/fonts";
+
+.asideBar {
+  position: relative;
+  width: 270px;
+  min-height: 1130px;
+  color: $white;
+  background-color: $blue;
+  box-shadow: inset 5px 5px 3px $white,
+  inset -5px -5px 3px $white;
+  padding: 25px;
+  user-select: text;
+  cursor: default;
+
+  @include flex-box($flex-box-col-center...);
+
+  @media screen and (max-width: 810px) {
+    width: 100%;
+    padding: 25px 5px;
+  }
+
+  h1 {
+    @include init-font(22px, 700);
+    @include text-shadow(2px, 4px);
+
+    color: $foxy;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .imageContainer {
+    width: 100%;
+    margin: 20px auto;
+    @include flex-box($flex-box-row-center...);
+
+    img {
+      width: 175px;
+      height: 230px;
+    }
+  }
+
+  .sectionList {
+    //width: 210px;
+    text-align: left;
+    margin: 0 auto;
+
+    .sectionName {
+      @include init-font(20px, 700);
+      @include text-shadow(3px, 4px);
+      @include transition();
+
+      margin: 5px auto;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+
+      &.toBeHovered:hover {
+        transform: translateX(7px);
+        cursor: pointer;
+      }
+
+      &.specClass {
+        color: $foxy;
+      }
+    }
+  }
+
+}
+
+
+

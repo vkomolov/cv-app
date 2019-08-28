@@ -1,0 +1,14 @@
+@import "../../utils/global_styles/animations";
+
+.heading {
+  position: relative;
+  padding-right: 70px;
+
+  &__icon {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 70px;
+    animation: rotate 3s linear infinite;
+  }
+}

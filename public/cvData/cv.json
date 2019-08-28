@@ -1,0 +1,412 @@
+{
+  "fullName": "Vadim Komolov",
+  "photo": "../img/vk.png",
+  "personal": {
+    "aside": {
+      "details": [
+        {
+          "title": "Citizenship",
+          "details": "Kyiv Ukraine"
+        },
+        {
+          "title": "Phone",
+          "details": "+(380) 66 350-61-04"
+        },
+        {
+          "title": "Email",
+          "details": "vkomolov1974@gmail.com"
+        },
+        {
+          "title": "Linkedin",
+          "details": "Vadim Komolov"
+        }
+      ],
+      "skills": [
+        {
+          "title": "Languages",
+          "details": [
+            {
+              "title": "Russian",
+              "details": "100"
+            },
+            {
+              "title": "Ukrainian",
+              "details": "85"
+            },
+            {
+              "title": "English",
+              "details": "85"
+            }
+          ]
+        },
+        {
+          "title": "Soft Skills",
+          "details": [
+            {
+              "title": "Leadership",
+              "details": "75"
+            },
+            {
+              "title": "Collaboration",
+              "details": "80"
+            }
+          ]
+        }
+      ]
+    },
+    "content": {
+      "title": "Covering Letter",
+      "details": [
+        {
+          "remark": null,
+          "subheading": null,
+          "p": [
+            "Dear Sirs,",
+            "I have successfully worked in the field of B2B sales: from a sales manager of the industrial and high-tech products to the Sales Director of the international production company.",
+            "Gaining a wealth of knowledge and skills in managing sales, I decided to combine them with my natural inclination to the WEB programming.",
+            "The construction of algorithms for performing tasks in programming turned out to resemble the business planning with a clearly defined task weighed. Also, splitting of responsibility and functionality to the elementary components in Business Management has full compliance with the principles of SOLID programming.",
+            "I found, I love coding and ready to devote my future career to App programming.",
+            "As a rule, a web developer has an engineering, procedural mindset that does not always keep up with the mindset of the Seller. The Seller is on a constant search for the possible advantages, features of the product and services to be sold.",
+            "Just the Client oriented view to the product concept and the programming skills can produce a very perspective symbiosis.",
+            "Many apps suffer not only adaptability to devices, but also their imbalance in programming, using 'big' for the 'little' or just not fully relevant to the task and possible Customer Priorities.",
+            "In addition, the growing trend in use of different constructors, libraries simplify the web production, but also can restrain freedom and creativity at the same time.",
+            "I learn to feel the balance in usage of different methods when creating an application with a specific purpose and functionality.",
+            "I enjoy and strive for a scalable, polymorphic and maximum adaptive, semantic DRY code, not overloaded with many libraries for a couple of easy methods.",
+            "I am certainly convinced, that my growing skills in WEB programming and my former professional background will generate a productive and significant outcome for the Company I will work for.",
+            "With Respect,",
+            "Vadim Komolov"
+          ]
+        }
+      ]
+    }
+  },
+  "experience": {
+    "aside": {
+      "details": [
+        {
+          "title": "Achievements",
+          "details": "3M International Sales & Marketing Professional Award. Team & Department Awards on exceptional sales results"
+        }
+      ],
+      "skills": [
+        {
+          "title": "Sales",
+          "details": [
+            {
+              "title": "Customer Focus Selling",
+              "details": "85"
+            },
+            {
+              "title": "Sales Presentation",
+              "details": "85"
+            },
+            {
+              "title": "Negotiation",
+              "details": "80"
+            }
+          ]
+        },
+        {
+          "title": "Sales Management",
+          "details": [
+            {
+              "title": "Business Analysis",
+              "details": "90"
+            },
+            {
+              "title": "Sales Team Leading",
+              "details": "80"
+            },
+            {
+              "title": "Distribution management",
+              "details": "85"
+            }
+          ]
+        },
+        {
+          "title": "Marketing Management",
+          "details": [
+            {
+              "title": "Positioning and Penetration",
+              "details": "80"
+            },
+            {
+              "title": "Product Strategy",
+              "details": "80"
+            },
+            {
+              "title": "Marketing Analysis",
+              "details": "85"
+            }
+          ]
+        }
+      ]
+    },
+    "content": {
+      "title": "Experience",
+      "details": [
+        {
+          "remark": "May 2018 - till present",
+          "subheading": "Outsource orders",
+          "comments": "programming, design, copywriting",
+          "li": [
+            "Web-programming: HTML, SCSS, JS-6 on Gulp-4",
+            "Creation of catalogs in publishing format with unique design and content, english"
+          ]
+        },
+        {
+          "remark": "Nov 2017 – till present",
+          "subheading": "Studying Full Stack",
+          "comments": "'PHP Academy': Github works available at 'EDUCATION'",
+          "li": [
+            "Frontend: HTML..5, CSS..3/SCSS, ES-2015..17, React..16/Redux, Gulp-4/Webpack;",
+            "Backend: PHP(basics), SQL(basics);",
+            "Backend (in process): Node.js, Next.js, graphQL...;"
+          ]
+        },
+        {
+          "remark": "Apr 2015 – May 2017",
+          "subheading": "Ancon Trade",
+          "comments": "Business Direction Manager",
+          "li": [
+            "Analysis and monitoring of the crushed stone market in UA and BY",
+            "Distribution channels development. Pricing and Assortment Management."
+          ]
+        },
+        {
+          "remark": "Apr 2014 – Apr 2015",
+          "subheading": "Basalt-Actien-Gesellschaft",
+          "comments": "Sales Director",
+          "li": [
+            "Sales development in Ukraine, Russia, Belarus, Baltic States, Poland;",
+            "Analysis & monitoring of the markets, identification of target segments and market entry strategies.",
+            "Prioritization and development of distribution channels, pricing and distribution policies.",
+            "Planning of the sales and marketing activities"
+          ]
+        },
+        {
+          "remark": "Apr 2013 – Feb 2014",
+          "subheading": "Industrial Group 'Filter'",
+          "comments": "Business Direction Manager",
+          "li": [
+            "Identifying the target market segments, working on the market entry strategy;",
+            "Development of the Distribution channels",
+            "Product assortment management, Price and Discount Policy;",
+            "Sales activity, negotiations, presentations to the potential Traders"
+          ]
+        },
+        {
+          "remark": "May 2004 – Aug 2012",
+          "subheading": "3M Corporation, Ukraine",
+          "comments": "Senior Sales Representative",
+          "li": [
+            "Prioritizing and development of the Key Customers in the target segments. Identifying business opportunities, achievement of goals;",
+            "Analysis and development of the Product Channels. Initiating the Separate Product Group Policy",
+            "Direct work with the Final Customers in/without cooperation with the Traders.",
+            "Customers` 'cases' analysis and presenting the product solutions. Leading Presentations, specialized OH&ES lectures, instructions to the potential Accounts.",
+            "Leading trainings and lectures for the sales force of the Traders."
+          ]
+        },
+        {
+          "remark": "Sep 1997 – May 2004",
+          "subheading": "Ukrtekstyl",
+          "comments": "Senior Sales Manager",
+          "li": [
+            "Leading sales on the following trademarks: Ansell Edmont Industrial, JSP, Howard, Dupont, Ozon, Bacou Intersafe, MSA",
+            "Leading projects on agricultural, energy and construction materials with the following co-supply of the safety products to the Accounts",
+            "Product trainings to the sales stuff, coordination of the Sales Force",
+            "Direct sales to the Final Customers of the industrial market. Sales leader",
+            "Development of the Distribution Channel"
+          ]
+        }
+      ]
+    }
+  },
+  "education": {
+    "aside": {
+      "details": [
+        {
+          "title": "CFS",
+          "details": "Corporate Courses"
+        },
+        {
+          "title": "Lean Six Sigma",
+          "details": "Corporate Courses"
+        },
+        {
+          "title": "Presentation",
+          "details": "Corporate Courses"
+        },
+        {
+          "title": "Negotiation",
+          "details": "Corporate Courses"
+        },
+        {
+          "title": "Time Management",
+          "details": "Corporate Courses"
+        },
+        {
+          "title": "ISO 9000",
+          "details": "Corporate Courses"
+        }
+      ],
+      "skills": [
+        {
+          "title": "Programming",
+          "details": [
+            {
+              "title": "HTML",
+              "details": "80"
+            },
+            {
+              "title": "CSS..3",
+              "details": "85"
+            },
+            {
+              "title": "SCSS",
+              "details": "85"
+            },
+            {
+              "title": "Javascript ES-2015..17",
+              "details": "80"
+            },            
+            {
+              "title": "Gulp-4",
+              "details": "75"
+            },
+            {
+              "title": "PHP",
+              "details": "40"
+            },
+            {
+              "title": "SQL",
+              "details": "50"
+            }
+          ]
+        },
+        {
+          "title": "Frameworks, Libraries...",
+          "details": [
+            {
+              "title": "jQuery",
+              "details": "30"
+            },
+            {
+              "title": "Bootstrap",
+              "details": "20"
+            },
+            {
+              "title": "React",
+              "details": "75"
+            },
+            {
+              "title": "React Redux",
+              "details": "70"
+            }
+          ]
+        },
+        {
+          "title": "IDE, API, etc...",
+          "details": [
+            {
+              "title": "XAMPP",
+              "details": "60"
+            },
+            {
+              "title": "PHP Storm",
+              "details": "80"
+            },
+            {
+              "title": "GIT",
+              "details": "65"
+            },
+            {
+              "title": "Photoshop",
+              "details": "80"
+            },
+            {
+              "title": "Adobe Indesign",
+              "details": "80"
+            },
+            {
+              "title": "Solid Works",
+              "details": "65"
+            }
+
+          ]
+        }
+      ]
+    },
+    "content": {
+      "title": "Education",
+      "details": [
+        {
+          "remark": "Nov 2017 - till present",
+          "subheading": "PHP Academy ( Deutsche-It-Schule )",
+          "li": [
+            "Frontend: HTML..5, CSS..3/SCSS, ES-2015..17, React..16/Redux, Gulp-4/Webpack;",
+            "Backend: PHP(basics), SQL(basics);",
+            "Backend (in process): Node.js, Next.js, graphQL...;"
+          ]
+        },
+        {
+          "remark": "Sep 2017 - Oct 2017",
+          "subheading": "Institute of Information and Business Technologies",
+          "li": [
+            "Front-End Course: HTML, CSS;"
+          ]
+        },
+        {
+          "remark": "Sep 1992 - June 1995",
+          "subheading": "International Institute of Business, Management and Law",
+          "li": [
+            "Management",
+            "Bachelor Degree with excellence"
+          ]
+        },
+        {
+          "subheading": "GIT LINKS",
+          "a": [
+            {
+              "title": "Initial Git Profile",
+              "path": "https://github.com/vkomolov"
+            },
+            {
+              "title": "PostIt Application",
+              "path": "https://github.com/vkomolov/postIt"
+            },
+            {
+              "title": "CV Link",
+              "path": "https://github.com/vkomolov/CV"
+            },
+            {
+              "title": "Gulp-4_Scss_JS-Browserify_Babelify own pack",
+              "path": "https://github.com/vkomolov/Gulp4_Scss_JS-Browserify_Babelify"
+            },
+            {
+              "title": "cartForm_Gulp4_SCSS_ES2015",
+              "path": "https://github.com/vkomolov/cartForm_Gulp4_SCSS_ES2015"
+            },
+            {
+              "title": "React Filter Module",
+              "path": "https://github.com/vkomolov/React_Filter_ModuleWork"
+            },
+            {
+              "title": "Product Catalog AdobeIndesign (Copywriting, Design)",
+              "path": "https://github.com/vkomolov/AdobeIndesign-Catalog"
+            }
+          ]
+        },
+        {
+          "subheading": "CV Downloads",
+          "file": [
+            {
+              "title": "English CV Version",
+              "src": "../cvData/VKomolov_Eng19_CV_JS.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@import "mixins";
+@import "variables";
+
+///////EXTENDS///////
+
+%button {
+  min-width: 50px;
+  border: none;
+  padding: 5px;
+  @include box-shadow(2px, 3px);
+  transition: all .08s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+    @include box-shadow(3px, 5px);
+  }
+
+  &:active {
+    transform: scale(1);
+    @include box-shadow(2px, 3px);
+  }
+}
