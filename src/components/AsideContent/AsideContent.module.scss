@@ -1,9 +1,0 @@
-@import "../../utils/global_styles/variables";
-@import "../../utils/global_styles/mixins";
-///@import "../../utils/global_styles/fonts";
-
-.topWrapper {
-  margin: 10px auto;
-  height: 700px;
-  @include scroll-init(5px, $foxyGrey, $blueDark);
-}

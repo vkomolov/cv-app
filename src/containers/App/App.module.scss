@@ -1,7 +1,0 @@
-@import "../../utils/global_styles/variables";
-@import "../../utils/global_styles/mixins";
-
-.totalWrapper {
-  @include flex-box($flex-box-row-top...);
-
-}

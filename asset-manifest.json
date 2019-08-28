@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cv-app/static/css/main.66e0f621.chunk.css",
+    "main.js": "/cv-app/static/js/main.d993bd46.chunk.js",
+    "main.js.map": "/cv-app/static/js/main.d993bd46.chunk.js.map",
+    "runtime~main.js": "/cv-app/static/js/runtime~main.1f72d373.js",
+    "runtime~main.js.map": "/cv-app/static/js/runtime~main.1f72d373.js.map",
+    "static/js/2.25fd421b.chunk.js": "/cv-app/static/js/2.25fd421b.chunk.js",
+    "static/js/2.25fd421b.chunk.js.map": "/cv-app/static/js/2.25fd421b.chunk.js.map",
+    "index.html": "/cv-app/index.html",
+    "precache-manifest.cd51aab020639f93f36dba157dd25527.js": "/cv-app/precache-manifest.cd51aab020639f93f36dba157dd25527.js",
+    "service-worker.js": "/cv-app/service-worker.js",
+    "static/css/main.66e0f621.chunk.css.map": "/cv-app/static/css/main.66e0f621.chunk.css.map"
+  }
+}
