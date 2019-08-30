@@ -1,6 +1,6 @@
 {
   "fullName": "Vadim Komolov",
-  "photo": "../img/vk.png",
+  "photo": "img/vk.png",
   "personal": {
     "aside": {
       "details": [
@@ -373,11 +373,11 @@
             },
             {
               "title": "PostIt Application",
-              "path": "https://github.com/vkomolov/postIt"
+              "path": "https://github.com/vkomolov/post-it"
             },
             {
               "title": "CV Link",
-              "path": "https://github.com/vkomolov/CV"
+              "path": "https://github.com/vkomolov/cv-app"
             },
             {
               "title": "Gulp-4_Scss_JS-Browserify_Babelify own pack",
@@ -394,6 +394,27 @@
             {
               "title": "Product Catalog AdobeIndesign (Copywriting, Design)",
               "path": "https://github.com/vkomolov/AdobeIndesign-Catalog"
+            }
+          ]
+        },
+        {
+          "subheading": "REALISATION",
+          "a": [
+            {
+              "title": "Post-It Demo",
+              "path": "https://vkomolov.github.io/post-it/"
+            },
+            {
+              "title": "CV Demo",
+              "path": "https://vkomolov.github.io/cv-app/"
+            },
+            {
+              "title": "cartForm_Gulp4_SCSS_ES2015",
+              "path": "https://vkomolov.github.io/cartForm_Gulp4_SCSS_ES2015/"
+            },
+            {
+              "title": "React Filter Module",
+              "path": "https://vkomolov.github.io/React_Filter_ModuleWork/"
             }
           ]
         },
