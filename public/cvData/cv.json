@@ -146,16 +146,16 @@
       "title": "Experience",
       "details": [
         {
-          "remark": "May 2018 - till present",
+          "remark": "Apr 2018 - till present",
           "subheading": "Outsource orders",
           "comments": "programming, design, copywriting",
           "li": [
-            "Web-programming: HTML, SCSS, JS-6 on Gulp-4",
+            "Web-programming: HTML5, SCSS, JS-6 on Gulp-4, React/Redux/Router",
             "Creation of catalogs in publishing format with unique design and content, english"
           ]
         },
         {
-          "remark": "Nov 2017 – till present",
+          "remark": "Nov 2017 – Apr 2018",
           "subheading": "Studying Full Stack",
           "comments": "'PHP Academy': Github works available at 'EDUCATION'",
           "li": [
@@ -166,11 +166,12 @@
         },
         {
           "remark": "Apr 2015 – May 2017",
-          "subheading": "Ancon Trade",
-          "comments": "Business Direction Manager",
+          "subheading": "Project «Ideas Lab»",
+          "comments": "Sales Development",
           "li": [
-            "Analysis and monitoring of the crushed stone market in UA and BY",
-            "Distribution channels development. Pricing and Assortment Management."
+            "Positioning and Development Planning",
+            "Sales Management, Project Management",
+            "Account Management"
           ]
         },
         {
@@ -255,7 +256,7 @@
           "title": "Programming",
           "details": [
             {
-              "title": "HTML",
+              "title": "HTML5",
               "details": "80"
             },
             {
@@ -264,6 +265,14 @@
             },
             {
               "title": "SCSS",
+              "details": "85"
+            },
+            {
+              "title": "styled-components",
+              "details": "70"
+            },
+            {
+              "title": "module styling",
               "details": "85"
             },
             {
@@ -314,7 +323,7 @@
             },
             {
               "title": "PHP Storm",
-              "details": "80"
+              "details": "85"
             },
             {
               "title": "GIT",

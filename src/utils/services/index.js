@@ -14,7 +14,6 @@ export function getAxios(source, file='') {
     let params = {
         url: `${source}${extension}`,
         method: 'GET',
-        responseType,
     };
 
     return axios(params)
