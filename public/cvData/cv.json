@@ -310,7 +310,11 @@
             },
             {
               "title": "React Redux",
-              "details": "70"
+              "details": "75"
+            },
+            {
+              "title": "React Router",
+              "details": "75"
             }
           ]
         },
