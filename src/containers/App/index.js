@@ -26,7 +26,7 @@ class App extends Component {
             data: {}
         };
 
-        this.dataPath = "../cvData/cv";
+        this.dataPath = "cvData/cv";
     }
 
     componentDidMount() {
@@ -39,10 +39,6 @@ class App extends Component {
 				    this.setState({
 					    data
 				    });
-				
-				    console.log('this.state: ')
-				    console.log(this.state)
-				    
 			    }, 1000); //simulating loading process
 		    })
 		    .catch(error => {

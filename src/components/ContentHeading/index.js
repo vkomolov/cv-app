@@ -8,7 +8,7 @@ function ContentHeading({heading}) {
     return (
         <h2 className={styles.heading}>
             { heading }
-            <img src="../img/react.svg"
+            <img src="img/react.svg"
                  className={styles.heading__icon}
                  alt="React Icon"
             />
