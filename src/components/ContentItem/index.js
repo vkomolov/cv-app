@@ -5,9 +5,6 @@ import PropTypes from 'prop-types';
 ///styles
 import styles from './ContentItem.module.scss';
 
-///utils
-import { getAndStore } from '../../utils/services/userService';
-
 /**@description it renders the tags according to the props.data structure:
  * - the object may have: <li>, <p>, <h3>, <span>, <a> renderings;
  * @param {object} item; //data for the separate item of the fetched content;
