@@ -5,7 +5,7 @@
 
 .topWrapper {
   @include flex-box($flex-box-row-left...);
-
+  
   align-items: flex-start;
   flex-wrap: nowrap;
   margin: 20px auto;

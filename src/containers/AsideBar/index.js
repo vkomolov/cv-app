@@ -9,10 +9,10 @@ import LoadingAlert from '../../components/LoadingAlert';
 ///styles
 import styles from './AsideBar.module.scss';
 
-/**@description stateless, takes the props with:
+/**@description takes the props with:
  * - the filter,
- * - function to set the filter
- * - the initial data from fetch or the localStorage;
+ * - callback to set the filter
+ * - the initial data from api request or the localStorage;
  * It renders the elements according to the data properties structure;
  * @return {object} JSX <div/> comprising:
  * - <h1/> "fullName" taken from attr;
@@ -24,50 +24,55 @@ import styles from './AsideBar.module.scss';
  * @param {object} attr: {string} filter, {func} setFilter;
  * */
 function AsideBar({ attr }) {
-    const { error, filter, data, setFilter,  } = attr;
+    const { filter, data, setFilter,  } = attr;
 
     let fullName,
         imageContainer,
         sectionList,
+	    sections,
         asideContent;
 
-    /**if data and data is the Object with the keys
-     * else to render <LoadingAlert />
+    /**if data is not empty Object else to render <LoadingAlert />
      * */
     if (data && Object.keys(data).length) {
-        let sections = Object.keys(data).map(key => {
-            if (key === "fullName") {
-                fullName = <h1>{ data[key] }</h1>;
-                return null;    //null will not render
-
-            } else if (key === "creationDate")  {
-                return null;
-
-            } else if (key === "photo"){
-                imageContainer = (
-                    <div className={styles.imageContainer}>
-                        <img src={data[key]} alt="person" />
-                    </div>
-                );
-                return null;
-
-            } else {
-                let specClass = (key === filter)
-                    ? `${styles.sectionName} ${styles.specClass}`
-                    : `${styles.sectionName} ${styles.toBeHovered}`;
-                return (
-                    <li key={key} className={specClass}
-                        data-value={key} onClick={setFilter}
-                    >
-                        {key}
-                    </li>
-                );
+        const sectionsArr = Object.keys(data).filter(key => {
+            switch( key ) {
+                case('fullName'): {
+                    fullName = <h1>{ data[key] }</h1>;
+                    return false;
+                }
+                case('creationDate'): {
+	                return false;
+                }
+                case('photo'): {
+                    imageContainer = (
+                        <div className={styles.imageContainer}>
+                            <img src={ data[key] } alt="person" />
+                        </div>
+                    );
+	                return false;
+                }
+                default: {
+                    return key;
+                }
             }
         });
-
+        sections = sectionsArr.map((i, key) => {
+	        let specClass = (i === filter)
+		        ? `${styles.sectionName} ${styles.specClass}`
+		        : `${styles.sectionName} ${styles.toBeHovered}`;
+	        return (
+		        <li key={key} className={specClass}
+		            data-value={i} onClick={(e)=>setFilter(e)}
+		        >
+			        { i }
+		        </li>
+	        );
+        });
+        
         sectionList = (
             <ul className={styles.sectionList}>
-                {sections}
+                { sections }
             </ul>
         );
 
@@ -75,18 +80,21 @@ function AsideBar({ attr }) {
             asideContent = data[filter].aside;
         }
 
-    } else {
-        if (!error) {
-            imageContainer = <LoadingAlert />
-        }
+    }
+    else {
+	    imageContainer = <LoadingAlert />;
     }
 
     return (
-        <div className={styles.asideBar}>
-            {fullName}
-            {imageContainer}
-            {sectionList}
-            {asideContent && <AsideContent { ...{ asideContent } }/>}
+        <div className={styles.asideBar} >
+            { fullName }
+            { imageContainer }
+            { sectionList }
+            {
+            	asideContent
+                && Object.keys( asideContent ).length
+	            && <AsideContent { ...{ asideContent } }/>
+            }
         </div>
     );
 }

@@ -1,7 +1,9 @@
 @import "../../utils/global_styles/variables";
 @import "../../utils/global_styles/mixins";
+@import "../../utils/global_styles/animations";
 
 .totalWrapper {
+  width: 100%;
   @include flex-box($flex-box-row-top...);
 
 }

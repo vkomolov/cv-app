@@ -1,6 +1,6 @@
 @import "../../utils/global_styles/variables";
 @import "../../utils/global_styles/mixins";
-///@import "../../utils/global_styles/fonts";
+@import "../../utils/global_styles/animations";
 
 .asideBar {
   position: relative;
@@ -66,8 +66,4 @@
       }
     }
   }
-
 }
-
-
-

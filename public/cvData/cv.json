@@ -155,7 +155,7 @@
           "comments": "programming, design, copywriting",
           "li": [
             "Stack: HTML5, CSS-3 (SCSS/module/styled), JS-6..., React/Redux/Router, on Gulp-4 / Webpack",
-            "Creation of catalogs in publishing format with unique design and content, english",
+            "Creation of catalogs in publishing format with unique design and content, English",
             "Ideas Lab outsource collaboration"
           ]
         },
@@ -427,10 +427,6 @@
               "path": "https://vkomolov.github.io/post-it/"
             },
             {
-              "title": "CV Demo",
-              "path": "https://vkomolov.github.io/cv-app/"
-            },
-            {
               "title": "cartForm_Gulp4_SCSS_ES2015",
               "path": "https://vkomolov.github.io/cartForm_Gulp4_SCSS_ES2015/"
             },
@@ -445,7 +441,7 @@
           "file": [
             {
               "title": "English CV Version",
-              "src": "../cvData/VKomolov_Eng19_CV_JS.pdf"
+              "path": "../cvData/VKomolov_Eng19_CV_JS.pdf"
             }
           ]
         }

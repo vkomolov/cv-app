@@ -10,9 +10,9 @@ import LoadingAlert from '../../components/LoadingAlert';
 ///styles
 import styles from './ContentBar.module.scss';
 
-/**@description stateless, takes the props with:
+/**@description takes the props with:
  * - the filter,
- * - function to set the filter
+ * - callback to set the filter
  * - the initial data from fetch or the localStorage;
  * It renders the elements according to the data properties structure;
  * @return {object} JSX <div/> comprising:
@@ -25,35 +25,28 @@ const ContentBar = ({ attr }) => {
     let heading,
         contentArr;
 
-    /**if data and data is the Object with the keys
-     *
-     * else to render <LoadingAlert />
+    /**if data and data is the Object with the keys else to render <LoadingAlert />
      * */
     if (data && Object.keys(data).length){
         if (filter && data[filter]) {
             const contentData = data[filter].content;
-
             heading = contentData.title;
             const contentBlock = contentData.details;
 
             contentArr = contentBlock.map((item, index) => {
-                return <ContentItem key={index} {...{item}}/>
+                return <ContentItem key={index} {...{item} } />
             });
         }
 
     } else {
-        contentArr = data && data.error
-            ? <div className={styles.errorWrapper}>
-                <span>{data.error}</span>
-              </div>
-            : <LoadingAlert />
+        contentArr = <LoadingAlert />;
     }
 
     return (
         <div className={styles.totalWrapper}>
-            { heading && <ContentHeading {...{heading}} /> }
+            { heading && <ContentHeading {...{ heading }} /> }
             <div className={styles.contentWrapper}>
-                {contentArr}
+                { contentArr }
             </div>
         </div>
     );
@@ -64,9 +57,7 @@ ContentBar.propTypes = {
     attr: PropTypes.shape(
         {
             data: PropTypes.object,
-            error: PropTypes.bool,
-            filter: PropTypes.string,
-            setFilter: PropTypes.func,
+            filter: PropTypes.string
         }
     )
 };
